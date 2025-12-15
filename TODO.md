@@ -1,0 +1,3 @@
+- [x] Add getMe function to authController.js
+- [x] Add GET /auth/me route to authRoutes.js
+- [x] Update AuthContext.tsx to fetch /auth/me instead of /user/profile
