@@ -41,7 +41,6 @@ Database (Users & Bills)
 - Dashboard to view:
   - Monthly electricity bills
   - Units consumed
-  - Total amount
   - Payment status (Paid / Unpaid)
 - Secure API calls using authentication tokens
 - Environment configuration using `.env.example`
