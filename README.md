@@ -88,37 +88,14 @@ APIs were tested using **Postman** before frontend integration.
 ---
 
 ## 📂 Project Structure
-E-BIJILEE/
+E-Bijilee/
 │
-├── e-bijlee-frontend/          # Frontend (React + TypeScript)
-│   ├── public/                # Static assets
-│   ├── src/                   # Frontend source code
-│   ├── index.html              # Application entry HTML
-│   ├── package.json            # Frontend dependencies & scripts
-│   ├── package-lock.json
-│   ├── vite.config.ts          # Vite configuration
-│   ├── tailwind.config.js      # Tailwind CSS configuration
-│   ├── postcss.config.js       # PostCSS configuration
-│   ├── eslint.config.js        # ESLint rules
-│   ├── tsconfig.json           # TypeScript configuration
-│   ├── tsconfig.app.json
-│   ├── tsconfig.node.json
-│   └── README.md               # Frontend documentation
+├── e-bijlee-frontend/
+│ ├── src/
+│ ├── package.json
+│ ├── package-lock.json
+│ ├── .env.example
 │
-├── src/                        # Backend source code (Node.js / Express)
-│   ├── controllers/            # Request handling & business logic
-│   ├── middlewares/            # Authentication & request validation
-│   ├── models/                 # Database models
-│   ├── routes/                 # API route definitions
-│   ├── utils/                  # Helper & utility functions
-│   ├── app.js                  # Express app configuration
-│   └── server.js               # Server entry point
-│
-├── .env.example                # Environment variables template
-├── package.json                # Backend dependencies & scripts
-├── package-lock.json
-├── Smart_Utility_Billing_System.postman_collection.json  # API testing
-└── README.md                   # Project documentation
-
-
+├── Smart_Utility_Billing_System.postman_collection.json
+└── README.md
 
